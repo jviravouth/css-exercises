@@ -1,0 +1,18 @@
+/* Stylesheet */
+
+/* Buttons have same font size of 28px and a font-family of 'Helvetica', 'Times New Roman', with 'sans-serif' as a fallback */
+.monochrome, .trafficchrome {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* The first element has a black background with white text using hex */
+.monochrome {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* The second element has a yellow background using rgb */
+.trafficchrome {
+    background-color: rgb(217, 255, 0)
+}
